@@ -1,5 +1,7 @@
 # Adam, from scratch
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Maverick-Ansh/adam-paper-implementation/blob/main/adam_from_scratch.ipynb)
+
 A from-the-ground-up re-implementation and **experimental scrutiny** of the Adam optimizer, in plain Python + NumPy — no `torch.optim`, no `tf.keras.optimizers`. Every moving average, every bias-correction term, every `√v + ε` is written out by hand so you can watch what actually happens inside the loop.
 
 > **Paper:** Kingma & Ba, *Adam: A Method for Stochastic Optimization*, ICLR 2015 — [arXiv:1412.6980](https://arxiv.org/abs/1412.6980)
@@ -62,4 +64,4 @@ pip install -r requirements.txt
 jupyter notebook adam_from_scratch.ipynb
 ```
 
-Or open it directly in [Google Colab](https://colab.research.google.com/).
+Or open it directly in Colab (no install needed): [**adam_from_scratch.ipynb**](https://colab.research.google.com/github/Maverick-Ansh/adam-paper-implementation/blob/main/adam_from_scratch.ipynb).
