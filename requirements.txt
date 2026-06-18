@@ -1,0 +1,3 @@
+numpy
+matplotlib
+tensorflow   # used only to download the MNIST dataset
